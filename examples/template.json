@@ -1,0 +1,9 @@
+{
+    "user_id": "int",
+    "full_name": "str",
+    "age": "int",
+    "salary": "float",
+    "is_active": "bool",
+    "registration_date": "date",
+    "mass": "float"
+}

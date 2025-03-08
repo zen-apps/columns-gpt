@@ -1,0 +1,11 @@
+customer_id,client_name,customer_age,annual_income,employment_status,signup_date,weight_kg
+1001,John Smith,34,65000.50,TRUE,2023-01-15,78
+1002,Maria Garcia,29,72500.75,TRUE,2023-02-22,62
+1003,Robert Johnson,45,95000.00,TRUE,2023-03-10,88
+1004,Sarah Williams,31,68000.25,FALSE,2023-04-05,65
+1005,David Brown,38,82500.50,TRUE,2023-05-12,81
+1006,Jennifer Davis,27,59000.00,TRUE,2023-06-20,58
+1007,Michael Miller,42,78000.75,FALSE,2023-07-08,92
+1008,Elizabeth Wilson,36,71500.50,TRUE,2023-08-17,67
+1009,James Moore,33,63000.25,FALSE,2023-09-24,76
+1010,Patricia Taylor,39,88000.00,TRUE,2023-10-30,64

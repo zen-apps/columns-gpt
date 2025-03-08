@@ -24,7 +24,7 @@ requirements = [
 
 setup(
     name="columns-gpt",
-    version="0.1.0",
+    version="0.1.2",
     description="DataFrame column analysis and matching with LLM",
     long_description=readme,
     long_description_content_type="text/markdown",

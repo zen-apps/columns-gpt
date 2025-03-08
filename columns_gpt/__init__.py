@@ -16,3 +16,8 @@ from .analyzer import (
     match_columns,
     interactive_analyze_dataframe
 )
+from .utils import (
+    sample_dataframe,
+    determine_type_match,
+    format_analysis_results
+)

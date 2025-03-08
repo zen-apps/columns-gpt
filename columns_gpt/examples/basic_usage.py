@@ -3,7 +3,8 @@ Basic usage example for ColumnsGPT
 """
 
 import pandas as pd
-from columns_gpt import analyze_dataframe, format_analysis_results
+from columns_gpt import analyze_dataframe
+from columns_gpt.utils import format_analysis_results
 
 # Create a sample DataFrame with columns that don't match template names exactly
 data = {

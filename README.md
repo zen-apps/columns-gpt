@@ -111,7 +111,8 @@ template = {
 }
 
 # Import and use the package
-from columns_gpt import analyze_dataframe, format_analysis_results
+from columns_gpt import analyze_dataframe
+from columns_gpt.utils import format_analysis_results
 
 # Analyze the DataFrame
 analysis_results, summary, rename_dict = analyze_dataframe(

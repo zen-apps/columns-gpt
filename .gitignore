@@ -48,3 +48,4 @@ Thumbs.db
 # Data files (except those needed for package)
 # *.csv    # Uncomment if you want to exclude all CSV files
 upload_to_pypi.sh
+*.ipynb

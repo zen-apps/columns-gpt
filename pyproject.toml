@@ -3,9 +3,9 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "geo-gpt"
-version = "0.1.6"
-description = "Enhanced geocoding with pgeocode and LLM fallback"
+name = "columns-gpt"
+version = "0.1.0"
+description = "DataFrame column analysis and matching with LLM"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
@@ -21,15 +21,15 @@ classifiers = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
-    "Topic :: Scientific/Engineering :: GIS",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Information Analysis",
 ]
 # The version is read from setup.py for consistency
 
 [project.urls]
-Homepage = "https://github.com/zen-apps/geo-gpt"
-Repository = "https://github.com/zen-apps/geo-gpt.git"
-"Bug Tracker" = "https://github.com/zen-apps/geo-gpt/issues"
+Homepage = "https://github.com/zen-apps/columns-gpt"
+Repository = "https://github.com/zen-apps/columns-gpt.git"
+"Bug Tracker" = "https://github.com/zen-apps/columns-gpt/issues"
 
 [project.scripts]
-geo-gpt = "geo_gpt.cli:main"
+columns-gpt = "columns_gpt.cli:main"

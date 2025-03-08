@@ -1,6 +1,6 @@
 # Steps to Publish to PyPI
 
-This document outlines the steps to prepare and publish the geo-gpt package to PyPI.
+This document outlines the steps to prepare and publish the columns-gpt package to PyPI.
 
 ## Preparation
 
@@ -49,10 +49,10 @@ This document outlines the steps to prepare and publish the geo-gpt package to P
 
 2. **Install from TestPyPI to test**:
    ```bash
-   pip install --index-url https://test.pypi.org/simple/ --no-deps geo-gpt
+   pip install --index-url https://test.pypi.org/simple/ --no-deps columns-gpt
    
    # Then install dependencies separately
-   pip install pgeocode pandas numpy langchain langchain-core langchain-openai python-dotenv
+   pip install pandas numpy langchain langchain-core langchain-openai python-dotenv
    ```
 
 3. **Test the package**: Ensure it works as expected
@@ -66,7 +66,7 @@ This document outlines the steps to prepare and publish the geo-gpt package to P
 
 2. **Verify installation**:
    ```bash
-   pip install geo-gpt
+   pip install columns-gpt
    ```
 
 3. **Create a git tag for the release**:
@@ -80,4 +80,4 @@ This document outlines the steps to prepare and publish the geo-gpt package to P
 - You'll need PyPI credentials to upload the package.
 - If this is your first time uploading, you might need to register on PyPI and TestPyPI.
 - Make sure all your dependencies are correctly specified in setup.py.
-- Remember to remove the `jupyter_notebook` directory before publishing.
+- Double-check your environment variables for LLM API access before testing.
